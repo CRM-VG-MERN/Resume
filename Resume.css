@@ -1,0 +1,142 @@
+Body{
+   background-image: url(https://iqratechnology.com/wp-content/uploads/2022/05/sd20221-1198x649.gif); 
+}
+.badges {
+ 
+    background-image: url(/Practice-Html/Badge-background.png);
+  background-position: center;
+  border: 1px dotted grey;
+  padding: 10px;
+  border-radius: 25px;
+  height: 160px;
+  margin: 2px;
+  align-content: baseline;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.badges img {
+  position: relative;
+  height: 80px;
+  width: 80px;
+  justify-items: center;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+img:hover {
+  transform: scale(1.3);
+}
+div {
+  /* border: 2px solid rgb(14, 14, 14); */
+  height: 1000px;
+}
+
+
+.page {
+  display: grid;
+  grid-template-areas:
+    "left10 right10 right10 right10  "
+    " left10 right10 right10 right10 "
+    " left10 right10 right10 right10 "
+    " left10 right10 right10 right10 ";
+}
+
+.Left30 {
+ 
+  background-position: center;
+  border-radius: 15px;
+  background-image: url(/Practice-Html/left30bgportrait.jpg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   grid-area: left10;
+   display: block;
+   align-items: center;
+
+   
+}
+.Contact_detail {
+
+    color: black;
+    margin-left: 2px;
+    margin: 10px;
+    border: 1px solid  black ;
+    background-color: white;
+    border-radius: 25px;
+    height: 200px;
+    width:250px;
+  }
+  .Skill_details{
+    padding-top: 2px;
+    margin: 15px;
+    border-radius: 25px;
+    background-color: white;
+    /* background-image: url(/Practice-Html/Winter3_WallpaperWednesday.jpg); */
+    height: 700px;
+    width:250px;
+    text-align: start;
+    text-shadow: 1px;
+
+  }
+
+  
+.Left30 p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 100;
+  color: rgb(12, 12, 90);
+}
+.Right70 {
+  border-radius: 30px;
+  padding: 15px;
+  grid-area: right10;
+  display: grid;
+  grid-template-rows: 200px 250px;
+  grid-template-columns: auto;
+  position: relative;
+}
+
+.topsection {
+  /* flex: 80px; */
+  height: 100px !important;
+  background-color: white;
+  border-radius: 15px;
+  padding: 5px;
+  /* margin-bottom: 5px; */
+  text-align: right;
+  text-indent: 1%;
+  padding: 0px;
+  white-space: nowrap;
+  position: relative;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 100;
+  color: rgb(12, 12, 90);
+
+}
+.topsection h4 {
+  position: relative;
+  bottom: 13px;
+}
+.topsection span {
+  position: relative;
+  bottom: 25px;
+}
+
+.midsec{
+        margin-top: -100px;
+        border-radius: 15px;
+        padding: 5px;
+        background-color: white;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 100;
+  color: rgb(12, 12, 90);
+
+
+
+}
+
+h3{
+   margin-left: 5px; 
+  color: rgb(12, 12, 90);
+
+}
