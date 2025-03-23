@@ -49,6 +49,7 @@ div {
 .Left30 {
  
   background-position: center;
+  height: max-content;
   border-radius: 15px;
   background-image: url(BackgroudImg/left30bgportrait.jpg.png);
   background-position: center;
@@ -137,6 +138,10 @@ div {
 
 
 
+}
+.Skill_details{
+  font-weight: 100;
+  font-size: 14px !important;
 }
 
 h3{
