@@ -1,9 +1,13 @@
 Body{
    background-image: url(https://iqratechnology.com/wp-content/uploads/2022/05/sd20221-1198x649.gif); 
+   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .badges {
  
-    background-image: url(/Practice-Html/Badge-background.png);
+    background-image: url(/BackgroudImg/Badge-background.png);
   background-position: center;
   border: 1px dotted grey;
   padding: 10px;
@@ -46,7 +50,7 @@ div {
  
   background-position: center;
   border-radius: 15px;
-  background-image: url(/Practice-Html/left30bgportrait.jpg.png);
+  background-image: url(BackgroudImg/left30bgportrait.jpg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
